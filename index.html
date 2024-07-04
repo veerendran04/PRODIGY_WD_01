@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scroll-indicator"></div>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="#section4">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="section1" class="section">
+        <h1>Home</h1>
+        <p>Welcome to our website. Discover the best services we offer.</p>
+        <p>Your satisfaction is our priority. Explore and enjoy!</p>
+        <button class="modal-btn" data-modal="modal1">Read More</button>
+    </section>
+    <section id="section2" class="section">
+        <h1>About</h1>
+        <p>Learn more about our company and our journey.</p>
+        <p>We aim to deliver the best service to our customers.</p>
+        <button class="modal-btn" data-modal="modal2">Read More</button>
+    </section>
+    <section id="section3" class="section">
+        <h1>Services</h1>
+        <p>We provide a variety of services to cater to your needs.</p>
+        <p>Our team is dedicated to offering top-notch solutions.</p>
+        <button class="modal-btn" data-modal="modal3">Read More</button>
+    </section>
+    <section id="section4" class="section">
+        <h1>Contact</h1>
+        <p>Get in touch with us for more information or inquiries.</p>
+        <p>We are here to assist you with any questions you may have.</p>
+        <button class="modal-btn" data-modal="modal4">Read More</button>
+    </section>
+    <a href="#" id="back-to-top">Back to Top</a>
+
+    <!-- Modal Structures -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Home</h2>
+            <p>More detailed content about the home section.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About</h2>
+            <p>More detailed content about the about section.</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Services</h2>
+            <p>More detailed content about the services section.</p>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact</h2>
+            <p>More detailed content about the contact section.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
